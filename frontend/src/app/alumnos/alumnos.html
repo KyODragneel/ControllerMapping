@@ -1,0 +1,6 @@
+<h2>Lista de alumnos</h2>
+<ul>
+  @for (a of alumnos(); track a.id) {
+    <li>{{ a.nombre }} - {{ a.carrera }}</li>
+  }
+</ul>
